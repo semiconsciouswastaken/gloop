@@ -43,7 +43,7 @@ beam.Enabled = false
 beam.Parent = handle
 
 local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://1838457617"
+sound.SoundId = "rbxassetid://1837474061"
 sound.Parent = handle
 sound.Looped = true
 
