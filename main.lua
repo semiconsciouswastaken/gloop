@@ -43,7 +43,7 @@ beam.Enabled = false
 beam.Parent = handle
 
 local sound = Instance.new("Sound")
-sound.SoundId = "rbxassetid://1837474061"
+sound.SoundId = "rbxassetid://1838457617"
 sound.Parent = handle
 sound.Looped = true
 
@@ -109,7 +109,7 @@ local function fireLaser(targetPosition)
         if hitPart then
             local character = hitPart.Parent
             local humanoid = character:FindFirstChildWhichIsA("Humanoid")
-            if humanoid then
+            if hitPart then
                 if toolval.Value == "z" then
                     statusLabel.Text = "Safe: " .. character.Name
                 elseif toolval.Value == "x" then
